@@ -230,6 +230,28 @@ npm run build  # ビルドテスト
 - Firebase Hosting
 - AWS Amplify
 
+## 🛠️ 便利なコマンド
+
+### 開発
+
+```bash
+npm run dev           # 開発サーバー起動
+npm run build         # プロダクションビルド
+npm run start         # 本番サーバー起動
+npm run type-check    # TypeScript型チェック
+```
+
+### デプロイ
+
+```bash
+npm run deploy            # 本番環境にデプロイ
+npm run deploy:preview    # プレビュー環境にデプロイ
+npm run vercel:logs       # デプロイログを確認
+npm run vercel:env:pull   # 環境変数をローカルに取得
+```
+
+詳細は [scripts/README.md](./scripts/README.md) を参照してください。
+
 ## 📊 データ構造
 
 ### Firestore Collections
