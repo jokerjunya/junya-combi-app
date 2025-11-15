@@ -23,7 +23,23 @@ Junyaの配属相性診断アプリのセットアップが完了しました！
 - **Next.js**: インストール済み
 - **依存関係**: すべてインストール済み
 - **環境変数**: `.env.local` 作成済み
-- **開発サーバー**: 起動中（http://localhost:3000）
+- **開発サーバー**: 起動可能（http://localhost:3000）
+
+### ✅ デプロイ環境
+- **Vercel**: デプロイ完了
+  - 本番URL: https://junya-combi-96h01bw9m-junyas-projects-98f0b06e.vercel.app
+  - GitHubとの連携: 自動デプロイ有効
+  - 環境変数: すべて設定済み
+- **GitHub**: リポジトリ作成済み
+  - URL: https://github.com/jokerjunya/junya-combi-app
+
+### ✅ MVP完了
+すべての要件を達成しています：
+- ✅ LP → 診断 → ゲート → 結果 → 上司招待 → ペア結果 が動作
+- ✅ スマホ最適化済み（レスポンシブデザイン）
+- ✅ 気持ちいいアニメーション（Framer Motion + タイプライター）
+- ✅ 相性ロジック実装（心理安全性重視）
+- ✅ 認証＋ID紐付け動作確認済み
 
 ## 🚀 アプリの使い方
 
@@ -47,8 +63,16 @@ npm run start
 
 ## 🌐 アクセスURL
 
-- **開発環境**: http://localhost:3000
-- **Firebase Console**: https://console.firebase.google.com/project/junya-combi-2025/overview
+### 本番環境
+- **アプリURL**: https://junya-combi-96h01bw9m-junyas-projects-98f0b06e.vercel.app
+- **GitHubリポジトリ**: https://github.com/jokerjunya/junya-combi-app
+- **Vercelダッシュボード**: https://vercel.com/junyas-projects-98f0b06e/junya-combi-app
+
+### 開発環境
+- **ローカル開発**: http://localhost:3000
+
+### Firebase Console
+- **プロジェクト概要**: https://console.firebase.google.com/project/junya-combi-2025/overview
 - **Firestore**: https://console.firebase.google.com/project/junya-combi-2025/firestore
 - **Authentication**: https://console.firebase.google.com/project/junya-combi-2025/authentication
 
@@ -119,14 +143,30 @@ firebase open
 
 ## 🚢 デプロイ
 
-### Vercel へのデプロイ（推奨）
+### ✅ デプロイ完了
 
-1. GitHubにプッシュ
-2. Vercel でインポート
-3. 環境変数を設定（`.env.local` の内容）
-4. デプロイ
+アプリは既にVercelにデプロイされています！
 
-詳細は [README.md](./README.md) を参照
+**本番URL**: https://junya-combi-96h01bw9m-junyas-projects-98f0b06e.vercel.app
+
+### 今後のデプロイ
+
+GitHubの `main` ブランチにプッシュすると自動的にデプロイされます：
+
+```bash
+git add .
+git commit -m "変更内容"
+git push origin main
+```
+
+または手動でデプロイ：
+
+```bash
+npm run deploy              # 本番環境
+npm run deploy:preview      # プレビュー環境
+```
+
+詳細は [DEPLOYMENT.md](./DEPLOYMENT.md) を参照
 
 ## 📞 サポート
 
