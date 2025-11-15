@@ -66,7 +66,7 @@ junya-combi-app/
 └── firebase.json          # Firebase設定
 ```
 
-詳細な構造は [PROJECT_STRUCTURE.md](./PROJECT_STRUCTURE.md) を参照してください。
+詳細な構造は [docs/PROJECT_STRUCTURE.md](./docs/PROJECT_STRUCTURE.md) を参照してください。
 
 ## 🛠️ セットアップ
 

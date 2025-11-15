@@ -23,6 +23,12 @@
 - **[ARCHITECTURE.md](./ARCHITECTURE.md)**  
   アプリのアーキテクチャ、データモデル、コーディング規約
 
+- **[PROJECT_STRUCTURE.md](./PROJECT_STRUCTURE.md)**  
+  プロジェクトのフォルダ構造の詳細説明
+
+- **[DEPLOYMENT.md](./DEPLOYMENT.md)**  
+  Vercelへのデプロイ方法とCI/CD設定
+
 ## 🔗 関連リンク
 
 - [メインREADME](../README.md) - プロジェクト概要
