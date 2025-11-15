@@ -7,7 +7,12 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "type-check": "npx tsc --noEmit"
+    "type-check": "npx tsc --noEmit",
+    "deploy": "npx vercel --prod",
+    "deploy:preview": "npx vercel",
+    "vercel:logs": "./scripts/vercel-logs.sh",
+    "vercel:env": "./scripts/vercel-env.sh",
+    "vercel:env:pull": "./scripts/vercel-env.sh pull"
   },
   "dependencies": {
     "class-variance-authority": "^0.7.1",
