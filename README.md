@@ -28,11 +28,16 @@
 - **Database**: Cloud Firestore
 - **Deployment**: Vercel (推奨)
 
+## 🌐 デモ
+
+**本番環境**: https://junya-combi-96h01bw9m-junyas-projects-98f0b06e.vercel.app
+
 ## 📚 ドキュメント
 
 - **[クイックスタート](./docs/QUICKSTART.md)** - 5分で起動する方法
 - **[Firebase CLI セットアップ](./docs/FIREBASE_CLI_SETUP.md)** - Firebase CLIを使った設定（推奨）
 - **[Firebase Console セットアップ](./docs/FIREBASE_SETUP.md)** - GUIでの設定方法
+- **[デプロイガイド](./docs/DEPLOYMENT.md)** - Vercelへのデプロイ方法
 - **[アーキテクチャ](./docs/ARCHITECTURE.md)** - 技術仕様とコーディング規約
 - **[セットアップ完了](./docs/SETUP_COMPLETE.md)** - 完了後の確認項目
 
